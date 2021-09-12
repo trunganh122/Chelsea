@@ -1,0 +1,201 @@
+/* GLOBAL */
+* {
+    box-sizing: border-box;
+}
+html,body {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.clear {
+    clear: both;
+}
+
+/* HEADER */
+.header img {
+width: 100px;
+
+}
+.headers {
+    display: inline-block;
+    font-family: tahoma;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(43, 43, 150);
+    margin: 0;
+}
+.header ul {
+  list-style: none; 
+  margin: 5px 0px; 
+
+    background-color:  blue;
+    display: flex; 
+    
+  
+}
+.header ul li {
+padding: 5px;
+margin: 10px 20px ;
+
+}
+.header ul li a {
+    color: white;
+    text-decoration: none;
+    
+    font-size: 18px;
+
+}
+/* CAROUSEL */
+.carousel   {
+    background-image: url("https://vcdn-thethao.vnecdn.net/2021/05/30/chelsea-jpeg-3619-1622324611.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* INTRO */
+.intro__text {
+    font-size: 20px;
+    
+}
+.intro__text span {
+    color: blue;
+    font-weight: bold;
+}
+.intro__left {
+    float: left;
+    width: 50%;
+}
+.intro__right {
+    float: left;
+    width: 50%;
+    
+}
+.kante,.ziyech {
+    width: 50%;
+    float: left;
+    width: 330px;;
+    height: 250px;
+    padding: 5px;
+}
+.blueball {
+    width: 100%;
+    padding-right: 11px;
+    padding-top: 5px;
+    height: 500px;
+}
+.mount,.lukaku {
+    width: 100%;
+    padding: 5px;
+}
+
+/* PRODUCT */
+.product {
+    margin-bottom: 50px;
+}
+.product__item {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    
+}
+.hazard {
+    width: 350px;
+    height: 250px;
+    width: 100%;
+    
+}
+.drogba {
+    width: 350px;
+    height: 250px;
+    width: 100%;
+}
+.lampard {
+    width: 350px;
+    height: 250px;
+    width: 100%;
+}
+.cech {
+    width: 350px;
+    height: 250px;
+    width: 100%;
+}
+.product h2 {
+    text-align: center;
+    font-size: 30px;
+}
+.product__item h3 {
+    font-size: 25px;
+}
+.product__item p {
+    font-size: 17px;
+}
+.product__item button {
+    background: blue;
+    border: 1px solid blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+/* BANNER */
+.banner {
+    background-image: url(https://www.chelseamegastore.com/content/ws/all/c16eac5a-aea0-4b5d-89be-7deef7a563d8__3200X1224.png);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.banner__circle {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(182, 182, 216);
+    color: white;
+    border-radius: 50%;
+text-align: center;
+opacity: 0.8;
+position: absolute;
+    top:5px;
+    left: 400px;
+}
+.banner__circle p {
+    font-size: 20px;
+    margin: 0 0 30px;
+}
+.banner__circle p:first-child {
+    font-size: 30px;
+    margin: 30px;
+   
+}
+.banner__circle p:nth-child(2) {
+    font-size: 80px;
+    margin: 0;
+    }
+/* SERVICE */
+.service__content {
+    width: 70%;
+    margin: auto;
+
+}
+.service__item {
+    float: left;
+    width: 33%;
+    text-align: center;
+}  
+.service__item i {
+   font-size: 40px; 
+   margin-top: 20px;   
+   
+}
+/* FOOTER */
+.footer {
+    background-color: blue;
+    color: white;
+text-align: center;
+}
+.footer p{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.footer h2 {
+    margin: 0;
+}
